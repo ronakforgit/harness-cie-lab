@@ -9,7 +9,7 @@ namespace: <+infra.namespace>
 
 # Service Type  allow you to specify what kind of service you want.
 # Possible values for Service Type are:
-# ClusterIP | NodePort | LoadBalancer | ExternalName
+# ClusterIP | NodePort | LoadBalancer  | ExternalName
 serviceType: ClusterIP
 
 # A Service can map an incom ing port to any targetPort.
