@@ -16,7 +16,7 @@ serviceType: ClusterIP
 # targetPort is where application   is  listening on inside the container.
 servicePort: 8080
 serviceTargetPort: 8080
-
+ 
 #Templatise  this using  harness variables.  
 sename: "bootcamp"
 
